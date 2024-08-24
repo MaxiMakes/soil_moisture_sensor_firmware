@@ -1,0 +1,3 @@
+CLK_PER=2000000/6
+async BAUD=(64*clk_per)/(S*f_baud)
+sync BAUD[15:6]=(clk_per)/(S*f_baud)
